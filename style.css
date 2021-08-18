@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.header1{
+    text-align: center;
+    width: 80%;
+}
+.headerimg{
+   
+    display: flex;
+}
+.menyu{
+    width: 80%;
+}
+.menyu.img{
+    width: 80px;
+}
+
+
+body{
+    background-color:#f2f4f5;  
+    width: 100%;
+}
+.sarlavha{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #002f34;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.container{
+    background-color: #f2f4f5;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 25px;
+    
+}
+
+
+.min-card{
+    width: 22%;
+    height: 400px;
+    display: flex;
+   
+}
+.card{
+    position: relative;
+    background-color:#fff;
+    padding: 10px;
+    border: 1px solid #f2f4f5;
+
+}
+.picture img{
+    width: 99%;
+    height: 200px;
+}
+.cardparagraf h3:hover{
+    background-color:#3e7592 ;
+}
+.cardparagraf{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.cardparagraf p{
+    opacity: 80%;
+}
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+    .btn{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #002f34;
+    border: 1px solid #565b5b;
+    padding: 0px 15px;
+    display: block;
+    margin: 100px 0px;
+    transition: all 0.3s linear;
+}
+.btn1:hover{
+    border: 3px solid #002f34;
+}
+.footer{
+    background-color: #002f34;
+    display: flex;
+    align-items: center;}
+.footer-heding{
+    padding: 25px;
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    margin-left: 300px;
+    
+}
+.footer-heding img{
+    margin-right: 50px;
+}
+.btn2 button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin: 30px 50px;
+    /* padding: 5px 20px; */
+}
+.btn2 button span{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s linear;
+}
+.btn2 button:hover span{
+    background-color: #002f34;
+    color: #fff;
+
+}
+.footer-navbar{
+    background-color: #cbf7ee;
+    
+}
+.footer-sarlavha{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+    margin: 0px auto;
+    color: #002f34;
+    font-weight: bold;
+}
+.footer-teks p{
+    width: 60%;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+.footer-teks{
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-teks2{
+
+    width: 80%;
+    margin: 100px auto;
+    line-height: 28px;
+
+}
+
+.footer-teks3{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    line-height: 30px;
+}
+
+.teks_1{
+    margin-right: 60px;
+}
+.teks_1 a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.1px dashed black;
+    opacity: 80%;
+}
+.teks_1 a:hover{
+    color: darkseagreen ;
+}
+.flaag{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    opacity: 80%;
+}
+.flaag p{
+    margin-right: 20px;
+}
+
+
+
